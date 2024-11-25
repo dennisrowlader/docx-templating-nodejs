@@ -1,11 +1,10 @@
 {
   "name": "docx-templating-nodejs",
   "version": "1.0.0",
-  "description": "A node application capable of processing Microsoft Word document templates using the docxtemplater library. It can insert images and HTML formatted text into the Word template and output the resulting document as either a .docx or an identical PDF.",
-  "main": "app.js",
+  "description": "An application written in vanilla Node.js capable of processing Microsoft Word document templates using the docxtemplater library. It can insert images and HTML formatted text into the Word template and output the resulting document as either a .docx or an identical PDF.",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -16,11 +15,5 @@
   "bugs": {
     "url": "https://github.com/dennisrowlader/docx-templating-nodejs/issues"
   },
-  "homepage": "https://github.com/dennisrowlader/docx-templating-nodejs#readme",
-  "devDependencies": {
-    "nodemon": "^3.1.4"
-  },
-  "dependencies": {
-    "express": "^4.19.2"
-  }
+  "homepage": "https://github.com/dennisrowlader/docx-templating-nodejs#readme"
 }
